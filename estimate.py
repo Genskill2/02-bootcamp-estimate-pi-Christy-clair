@@ -14,10 +14,11 @@ def wallis(n):
 print(wallis(1000000))
 
 
+
 import random
 from math import sqrt
-x= input("Enter the number of darts thrown: ")
-n= int(x)
+#the number of darts thrown
+n= 200000000
 def monte_carlo(n):
     point = 0
     
